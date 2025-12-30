@@ -2,6 +2,7 @@ header {
     padding-top: 20px;
     padding-bottom: 80px;
     background-color: var(--black);
+    font-family: "DM Sans", sans-serif;
 }
 
 
@@ -31,7 +32,7 @@ nav {
     font-weight: 700;
     font-size: 18px;
     color: var(--white);
-    font-family: "DM Sans", sans-serif;
+    
 }
 
 
@@ -41,7 +42,7 @@ nav {
     margin: 0;
     padding: 0;
     gap: 28px;
-    font-family: "DM Sans", sans-serif;
+    
     font-weight: 400;
     font-size: 14px;
     text-transform: uppercase;
@@ -70,7 +71,7 @@ nav {
     justify-content: center;
     align-items: center;
     padding: 16px 58px;
-    font-family: "DM Sans", sans-serif;
+    
     font-weight: 700;
     font-size: 18px;
     text-transform: uppercase;
@@ -86,7 +87,7 @@ nav {
 
 
 /* 
-#####emin değilim##### */
+ #####emin değilim##### */
 /* .nav-manage,
 .signup-btn {
 
@@ -162,7 +163,7 @@ nav {
     flex-direction: column;
     gap: 20px;
     color: var(--black);
-    font-family: "DM Sans", sans-serif;
+    
     font-weight: 400;
     font-size: 14px;
     position: relative;
@@ -242,6 +243,10 @@ nav {
 
     .buttons {
         display: none;
+    }
+
+    .signup-btn {
+        height: 60px;
     }
 
     .nav-manage {
